@@ -61,14 +61,14 @@ After activating your environment, start interactive python from the terminal:
 python2
 ```
 
-Check whether PyRAF installed correctly by attemping to import the PyRAF package and try loading an IRAF module:
+Check whether PyRAF installed correctly by importing the PyRAF package and loading an IRAF module:
 
 ```
 from pyraf import iraf
 iraf.stsdas()
 ```
 
-Alternatively, if you are writing a script, ensure that you are specifying python 2 in the first line of the script as in the following example:
+Alternatively, if you are writing a script, ensure that you are specifying python 2 in the first line of the script as in the following example.
 
 ```
 #!/usr/bin/env python2
@@ -83,7 +83,7 @@ if __name__ == "__main__":
 	func(0)
 ```
 
-**OR** explicitly specify you are using Python 2 when running the script from the terminal:
+You can also explicitly specify to use Python 2 when running the script:
 
 ```
 python2 script.py
