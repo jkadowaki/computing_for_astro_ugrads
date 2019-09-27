@@ -73,11 +73,10 @@ Alternatively, if you are writing a script, ensure that you are specifying pytho
 ```
 #!/usr/bin/env python2
 
-import xxx
-import yyy
+from pyraf import iraf
 
 def func(arg):
-	pass
+	iraf.stsdas()
 	
 if __name__ == "__main__":
 	func(0)
