@@ -1,5 +1,5 @@
-# Creating a Python Virtual Environment for Astronomy Research
-*Last Updated: 2019 Sept 20*
+# Creating a Python Virtual Environment for IRAF/PyRAF
+*Last Updated: 2019 Sept 26*
 
 ---
 
